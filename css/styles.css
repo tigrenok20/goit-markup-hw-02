@@ -1,5 +1,5 @@
 /* #region base styles */
-` body {
+body {
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #fff;
@@ -71,28 +71,106 @@ a {
   background-color: #2e2f42;
 }
 .hero-title {
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
 }
 .btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   color: #fff;
   background-color: #4d5ae5;
+  cursor: pointer;
 }
 .btn:hover,
 .btn:focus {
   background-color: #404bbf;
 }
 /* #endregion */
+
+/* #region Our Features*/
+
+.feature-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.feature-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+/* #endregion*/
+
 /* #region our-team styles */
 .our-team {
-  background-color: #c0c0c0;
+  background-color: #f4f4fd;
 }
-.avatar-product-designer,
-.avatar-frontend-developer,
-.avatar-marketing,
-.avatar-ui-designer {
+.our-team-title {
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+}
+
+.avatar-item {
   background-color: #fff;
 }
+
+.team-member-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+}
+
+.team-member-position {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #434455;
+}
+/* #endregion */
+
+/* #region our-portfolio styles */
+.our-portfolio-title {
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+}
+
+.our-portfolio-list {
+  text-align: left;
+}
+
+.portfolio-item-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.portfolio-item-category {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
 /* #endregion */
 
 /* #region footer styles */
